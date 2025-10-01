@@ -1,4 +1,4 @@
-import NavBar from './navBar'
+import NavBar from './NavBar.jsx'
 import Section from './Section.jsx'
 import AboutMe from './AboutMe.jsx'
 import Experiences from './Experiences.jsx'
