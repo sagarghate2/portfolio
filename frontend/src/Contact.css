@@ -1,0 +1,181 @@
+.contact-btn{
+    height: 50px;
+    width: 160px;
+    background-color: #0a1023;
+    color: #34d399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+.contactOne{
+    padding-left: 70px;
+    color: #34d399;
+    font-size: 18px;
+    font-weight: 500;
+}
+.query{
+    color: #D3D8E8;
+    font-weight:normal;
+}
+.formSubmission{
+    height: 515px;
+    width: 500px;
+    border: 0.2px solid  rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: white;
+}
+.padd{
+    padding: 20px;
+    font-size: 14px;
+}
+.padd p{
+    margin-top: 0;
+}
+input,textarea{
+    background-color: #10172D;
+}
+form label{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+     color: white;
+}
+form input,form textarea{
+    width: 90%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: white;
+}
+.mail{
+    margin-top: 15px;
+}
+.message{
+    margin-top: 20px;
+}
+#txtarea{
+    height: 113px;
+}
+form button {
+  display: inline-block;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #EC4899, #8B5CF6);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  transform: translateY(-2px);
+}
+.btn{
+    padding-top: 25px;
+    padding-left: 120px;
+}
+form input:focus,
+form textarea:focus {
+  border: 1px solid #34d399; 
+  outline: none;            
+  background-color: #0a1023;  
+}
+#contact{
+    display: flex;
+    margin-left: 80px;
+}
+.contactTwo{
+    padding-top: 170px;
+   padding-left: 80px;
+   color: white;
+   font-weight: normal;
+   font-size: 22px;
+}
+.atWidth{
+    font-size: 20px;
+    color: white;
+}
+.lineOne, .lineTwo, .lineThree{
+    margin-bottom: 45px;
+}
+.lineLast{
+    margin-top:50px;
+}
+.lineLast a{
+    color: white;
+    text-decoration: none;
+}
+.ww{
+    margin-right: 35px;
+    font-size: 27px;
+    transform: 1s ease;
+}
+.ww:hover{
+    color: #34d399;
+    transform: scale(1.2);
+}
+.contact{
+    margin-bottom: 80px;
+}
+.oneLastDance{
+    margin: 30px 0 30px 30px;
+    color: white;
+}
+.naam{
+    color: #34d399;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    #contact {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .contactTwo {
+        padding-top: 30px;
+        padding-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .formSubmission {
+        width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    .padd {
+        padding: 15px;
+    }
+
+    .btn {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .contactOne {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .ww {
+        margin-right: 20px;
+        font-size: 22px;
+    }
+
+    form input, form textarea {
+        width: 95%;
+    }
+}

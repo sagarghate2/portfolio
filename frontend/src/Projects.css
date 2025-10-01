@@ -1,0 +1,174 @@
+.projectBox{
+    height: 50px;
+    width: 130px;
+    background-color: #0a1023;
+    color: #34d399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.projects{
+     display: flex;
+    justify-content: center;  
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+}
+.projectOne,.projectTwo{
+    height: 560px;
+    width: 560px;
+    border-radius: 10px;
+    border: 1px solid #122F6A;
+    background-color: #0B1226;
+    margin-bottom: 10px;
+}
+.projectTitle{
+    display: flex;
+    padding: 20px 32px;
+    height: 25px;
+    width: 495px;
+    align-items: center;
+    border: 1px solid #122F6A;
+    background-color: #0B1226;
+    border-radius: 10px;
+}
+.coloors .pink{
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #f87171;
+}
+.coloors .orange{
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #FB923C;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.coloors .white{
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #BBF7D0;
+}
+.coloors{
+    display: flex;
+    margin-right: 146px;
+}
+.projectTitle p{
+    margin: 0;
+    color: #34d399;
+    font-size: 20px;
+}
+.aboutProject{
+    height: 492px;
+    width: 520px;
+    font-family: 'Fira code', monospace;
+    font-size: 14px;
+    padding: 32px;
+    line-height: 1.5;
+}
+.aboutProject .purple{
+    color: #EC4899;
+    margin-right: 8px;
+}
+.aboutProject .white{
+    margin-right: 8px;
+}
+.aboutProject .curlyBracket{
+    color: #9CA3AF;
+}
+.aboutProjectTwo .white{
+    margin-left: 32px;
+}
+.aboutProjectThree .white{
+    margin-left: 32px;
+}
+.mar{
+    margin-left: 95px;
+}
+.aboutProjectFour .white{
+    margin-left: 32px;
+}
+.aboutProjectDesc{
+    line-height: 1.8;
+    margin-left: 32px;
+}
+.projectOne{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.projectTwo{
+    z-index: 2;
+}
+/* @media (max-width: 955px){
+     .projectOne, .projectTwo{
+       width: 390px;
+       height: 600px;
+       
+     }
+     .aboutProjectThree .white,.aboutProjectTwo .white,.aboutProjectFour .white{
+    margin-left: 0;
+    }
+    .aboutProjectDesc{
+        padding: 0;
+        margin: 0;
+        line-height: 1.8;
+         overflow-wrap: break-word; /* ensures long words wrap */
+         /* word-break: break-word; */
+    /* }
+} */
+
+
+
+@media (max-width: 600px){
+    .projectBox{
+        width: 120px;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .projectOne, .projectTwo{
+        width: 90%; /* full width for small devices */
+        height: auto; /* auto height to fit content */
+        margin-bottom: 20px;
+    }
+
+    .projectTitle{
+        padding: 10px 0;
+        /* border: 2px solid #122F6A; */
+        width: 99%; 
+    }
+
+    .coloors{
+        margin-right: 0;
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+
+    .aboutProject{
+        width: 95%;
+        padding: 15px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .aboutProjectDesc{
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .mar{
+        margin-left: 0;
+    }
+
+    .projectTitle p{
+        font-size: 16px;
+        padding-left: 70px;
+    }
+}

@@ -1,0 +1,51 @@
+
+#certification-btn{
+    height: 50px;
+    width: 160px;
+    background-color: #0a1023;
+    color: #34d399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.certifications{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-around;
+}
+.certificationOne img, .certificationTwo img, .certificationThree img{
+        height: 350px;
+        width: 450px;
+}
+
+@media screen and (max-width: 768px) {
+    .certifications {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; 
+        margin-bottom: 50px;
+    }
+
+    .certificationOne img, 
+    .certificationTwo img, 
+    .certificationThree img{
+        width: 90%; 
+        height: auto; 
+        margin-left: 15px;
+    }
+
+    #certification-btn{
+        width: 140px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
