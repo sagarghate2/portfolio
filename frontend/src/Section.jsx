@@ -22,7 +22,7 @@ export default function Section(){
                </div>
                <div className="buttons">
             <div className="contact-me"> <a href="#contact"> CONTACT ME  <FontAwesomeIcon icon={faUser} className='userIcon'/> </a> </div>
-            <div className="getResume"> <a href="#">GET RESUME <FontAwesomeIcon icon={ faDownload} className='download'/> </a> </div>
+            <div className="getResume"> <a href="https://drive.google.com/file/d/1PGKZM3ixAB8dExXMYXkPMIWVFfycKxam/view?usp=drive_link" download="SagarGhate.pdf">GET RESUME <FontAwesomeIcon icon={ faDownload} className='download'/> </a> </div>
                </div>
           </div>
 
